@@ -35,7 +35,7 @@ public class crimeAnalyzer {
         //Dataset<Row> crimes = spark.read().csv("Crime_dataset");
         Dataset<Row> crimes = spark
                 .read()
-                .format("com.databricks.spark.csv")
+                .format("csv")
                 .option("header", true)
                 .load("Crime_dataset_headers");
 
