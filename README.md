@@ -17,3 +17,6 @@ In order to add Apache Spark libraries you need to add these dependencies in you
         <artifactId>spark-sql_2.11</artifactId>
         <version>2.2.1</version>
     </dependency>
+
+This implementation was inspired by:
+https://acadgild.com/blog/analyzing-new-york-crime-data-using-sparksql/    
